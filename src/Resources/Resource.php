@@ -87,7 +87,7 @@ abstract class Resource implements ResourceContract
      * Alias for route of resource.
      * @var string
      */
-    protected string $routAlias = '';
+    protected string $routeAlias = '';
 
     /**
      * Get an array of validation rules for resource related model
