@@ -305,7 +305,7 @@ abstract class Resource implements ResourceContract
      */
     public function routeAlias(): string
     {
-        return (string) ($this->routAlias ?
+        return (string) ($this->routeAlias ?
             str($this->routAlias)
                 ->lcfirst()
                 ->squish() :
